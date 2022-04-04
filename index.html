@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Gym website</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        background: url('images/bg.jpg');
+        background-size: 100% 731px;
+        background-repeat: no-repeat;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+
+
+    .contact {
+        margin: 0px;
+        padding: 0px;
+        width: auto;
+        /* border: 2px solid greenyellow; */
+        height: 32px;
+        text-align: center;
+        color: white;
+        background-color: #a50000;
+
+    }
+
+    .middle {
+        display: block;
+        width: 75%;
+        margin: auto;
+        height: 64px;
+        /* border: 2px solid blue; */
+
+    }
+
+    .left img {
+        display: inline;
+        position: absolute;
+        left: 30px;
+        top: 40px;
+        width: 72px;
+        padding: 10px;
+    }
+
+    .left:hover {
+        cursor: pointer;
+    }
+
+    .navbar {
+        display: inline-block;
+        padding-top: 10px;
+    }
+    
+    .navbar li {
+        
+        display: inline-block;
+    }
+    
+    .navbar li a {
+        color: white;
+        background: black;
+        text-decoration: none;
+        border-radius: 15px;
+        padding: 10px;
+        margin-left: 25px;
+        font-size: 25px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: #A50000;
+        background: white;
+    }
+
+
+    .form {
+        border-radius: 15px;
+        background: #000;
+        color: white;
+        width: 420px;
+        height: fit-content;
+        margin: 80px 80px;
+        padding: 36px;
+        font-size: 18px;
+        
+
+    }
+    .heading{
+        font-size: 36px;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 5px;
+        width: 420px;
+        margin: auto;
+        margin-top: 64px;
+        color: white;
+        background-color: black;
+    }
+
+    #membership {
+        display: block;
+        border: 2px solid white;
+        border-radius: 10px;
+        color: white;
+        font-size: 25px;
+        background: #000;
+        width: 180px;
+        float: right;
+        margin: 220px 120px;
+        padding: 15px;
+        text-align: center;
+    }
+
+
+    #trial {
+        display: block;
+        border: 2px solid white;
+        border-radius: 15px;
+        color: white;
+        font-size: 25px;
+        background: #000;
+        width: 180px;
+        float: right;
+        margin: 220px 120px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #trial:hover {
+        cursor: pointer;
+        background-color: #A50000
+    }
+
+    #membership:hover {
+        cursor: pointer;
+        background-color: #A50000;
+    }
+    #submit{
+        border-radius: 5px;
+        box-shadow: inset;
+    }
+    #submit:hover{
+        cursor: pointer;
+        background-color: #a50000;
+        color: white;
+    }
+    #reset{
+        border-radius: 5px;
+    }
+    #reset:hover{
+        cursor: pointer;
+        background-color: #a50000;
+        color: white;
+    }
+
+    .aboutus{
+        border-radius: 10px;
+        background: #a50000;
+        color: white;
+        margin-top: 84px;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    </header>
+    <header class="contact">
+        <div>
+
+            Beast Gym Fitness Institute:- Mumbai:- 987654321, Pune:- 987612345, Delhi:- 987698765, Other
+            Cities:-9198765432
+
+        </div>
+    </header>
+    <header class="header">
+        <div class="left">
+            <img src="images/Final logo 2.png" alt="Error403">
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Gym Gallery</a></li>
+                <li><a href="#">Locate Gym</a></li>
+                <li><a href="#">Essentials</a></li>
+                <li><a href="#">Success Stories</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
+        </div>
+    </header>
+    <h3 class="heading">Welcome To Beast Gym</h3>
+    <header>
+        <div class="container" id="membership">
+            Membership
+        </div>
+        <div class="container" id="trial">
+            Trial
+        </div>
+    </header>
+    <div class="form">
+        <form action="">
+            <div>
+                Name: <input type="text">
+            </div>
+            <div>
+                <br>
+                Phone No. : <input type="text">
+            </div>
+            <br>
+            <div>
+                E-mail: <input type="email" name="My email">
+            </div>
+            <br>
+            <div>
+                Gender: Male <input type="radio" name="My gender" id="">
+                Female <input type="radio" name="My gender" id="">
+                Other <input type="radio" name="My gender" id="">
+            </div>
+            <br>
+            <div>
+                Your current city: <input type="text">
+            </div>
+            <br>
+            <div>
+                <!-- directly working button -->
+                Submit: <input type="submit" value="Submit" id="submit">
+                Reset: <input type="reset" value="Reset" id="reset">
+            </div>
+        </form>
+    </div>
+    <div class="aboutus">
+        About Us: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos provident assumenda voluptatem eaque facilis, aut aliquam eius, aperiam accusamus id sequi modi. Itaque ipsam rem hic quibusdam aliquid, incidunt voluptates eos impedit voluptate doloremque ipsa maxime, repellat distinctio est minima dignissimos a suscipit libero voluptatibus aspernatur ad, aliquam voluptatem! Fugit impedit animi ipsum neque ullam dicta dolorum ut eaque, corporis explicabo, nihil repudiandae consequatur, expedita maiores iure ducimus libero vel nam sunt non atque maxime dolorem reiciendis consequuntur! Dolores distinctio rem illum dolore nostrum aut ex quia laudantium quos quae modi, mollitia nemo labore? Magni, fugit tempora. Debitis tenetur rerum iusto animi explicabo, exercitationem commodi veritatis, facilis in perspiciatis omnis quam beatae distinctio consequuntur sequi et eos, libero at unde!
+    </div>
+</body>
+
+</html>
