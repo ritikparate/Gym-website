@@ -1,0 +1,157 @@
+body {
+    background: url('Images/bg.jpg');
+    background-size: 100% 731px;
+    background-repeat: no-repeat;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.contact {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    /* border: 2px solid greenyellow; */
+    height: 32px;
+    text-align: center;
+    color: white;
+    background-color: #a50000;
+
+}
+
+.middle {
+    display: block;
+    width: 75%;
+    margin: auto;
+    height: 64px;
+    /* border: 2px solid blue; */
+
+}
+
+.left img {
+    display: inline;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    width: 72px;
+    padding: 10px;
+}
+
+.left:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.navbar li {
+    
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    background: black;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    color: #A50000;
+    background: white;
+}
+
+
+.form {
+    border-radius: 15px;
+    background: #000;
+    color: white;
+    width: 420px;
+    height: fit-content;
+    margin: 80px 80px;
+    padding: 36px;
+    font-size: 18px;
+    
+
+}
+.heading{
+    font-size: 36px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 420px;
+    margin: auto;
+    margin-top: 64px;
+    color: white;
+    background-color: black;
+}
+
+#membership {
+    display: block;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    background: #000;
+    width: 180px;
+    float: right;
+    margin: 220px 120px;
+    padding: 15px;
+    text-align: center;
+}
+
+
+#trial {
+    display: block;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    background: #000;
+    width: 180px;
+    float: right;
+    margin: 220px 120px;
+    padding: 15px;
+    text-align: center;
+}
+
+#trial:hover {
+    cursor: pointer;
+    background-color: #A50000
+}
+
+#membership:hover {
+    cursor: pointer;
+    background-color: #A50000;
+}
+#submit{
+    border-radius: 5px;
+    box-shadow: inset;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: #a50000;
+    color: white;
+}
+#reset{
+    border-radius: 5px;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: #a50000;
+    color: white;
+}
+
+.aboutus{
+    border-radius: 10px;
+    background: #a50000;
+    color: white;
+    margin-top: 84px;
+    padding: 10px;
+}
